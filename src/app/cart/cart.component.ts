@@ -98,7 +98,6 @@ export class CartComponent implements OnInit {
       return true;
     }
   }
-
   checkout() {
     this.btnDisabled = true;
     try {
@@ -118,5 +117,6 @@ export class CartComponent implements OnInit {
       this.data.error(error);
     }
   }
+  
 
 }
